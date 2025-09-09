@@ -1,0 +1,46 @@
+.nav{
+    background-color: #1a0035;
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+body{
+    background-color: #1C0021;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1a0035;
+}
+
+ul li {
+    float: left;
+
+}
+
+ul li a{
+    background-color: #210044;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content: center;
+}
+
+ul li a:hover{
+    background-color: #1C3166;
+}
+
+p {
+    margin: 8px;
+    color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
