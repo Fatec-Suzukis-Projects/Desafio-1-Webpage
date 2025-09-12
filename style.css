@@ -9,6 +9,7 @@
 
 body{
     background-color: #1C0021;
+    flex-direction: column;
     margin: 0;
 }
 
@@ -18,6 +19,10 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #1a0035;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 ul li {
@@ -32,6 +37,7 @@ ul li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin-right: 10px;
 }
 
 ul li a:hover{
@@ -42,4 +48,54 @@ p {
     margin: 8px;
     color: aliceblue;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero-image{
+  background-image: url("1Z_2104.w026.n002.311B.p1.311.jpg");
+  height: 40%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.hero-text{
+  text-align: center;
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+}
+
+main{
+    main {
+        flex-grow: 1; /* Allows the main content to grow and push the footer down */
+    }
+}
+
+footer {
+        background-color: #210044;
+        color: white;
+        padding: 13px;
+        display: flex;
+        justify-content: space-around; 
+        align-items: center;
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+    }
+
+.header-routes{
+    margin: 10px 0 10px 50px;
+}
+
+.margin-icon{
+    margin: 10px 0 10px 10px;
 }
