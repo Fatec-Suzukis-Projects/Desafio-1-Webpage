@@ -47,17 +47,17 @@ ul li a:hover{
 p {
     margin: 8px;
     color: aliceblue;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .hero-image{
-  background-image: url("1Z_2104.w026.n002.311B.p1.311.jpg");
-  height: 40%;
+  background-image: url("./images/backg.jpg");
+  height: 400px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
+  position: relative;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -72,6 +72,13 @@ p {
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 80px;
+    color: aliceblue;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    padding-left: 15px;
 }
 
 main{
@@ -84,10 +91,11 @@ footer {
         background-color: #210044;
         color: white;
         padding: 13px;
+        margin-top: 30px;
         display: flex;
         justify-content: space-around; 
         align-items: center;
-        position: absolute;
+        position:relative;
         bottom: 0%;
         width: 100%;
     }
@@ -99,3 +107,26 @@ footer {
 .margin-icon{
     margin: 10px 0 10px 10px;
 }
+
+label{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+
+input{
+    background-color:#1C3166;
+    margin: 10px;
+    color: aliceblue;
+}
+
+textarea{
+    background-color:#1C3166;
+    margin: 10px;
+    
+}
+
+ol{
+    color: aliceblue;
+}
+

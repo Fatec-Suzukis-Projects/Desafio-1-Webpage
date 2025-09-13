@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="piti computer.png">
+    <link rel="icon" href="./images/piti computer.png" type="image/png">
     <title>Contato</title>
 
 </head>
@@ -12,14 +12,44 @@
         <header>
             <nav class="nav">
                 <ul>
-                    <li><img src="piti computer.png" width="80px"></li>
-                    <li><a href="index.html"><img src="homeicon.png" width="150px"></a></li>
-                    <li><a href="about.html"><img src="whoweare.png" width="150px"></a></li>
-                    <li><a href="contat.html"><img src="conts.png" width="150px"></a></li>
+                <li class="margin-icon">
+                    <img src="./images/piti computer.png" width="80" alt="Logo RPGaming">
+                </li>
+                <li>
+                    <a href="index.html">
+                        <img src="./images/homeicon.png" width="150" alt="Página inicial">
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        <img src="./images/whoweare.png" width="150" alt="Quem somos">
+                    </a>
+                </li>
+                <li>
+                    <a href="contat.html">
+                        <img src="./images/conts.png" width="150" alt="Contato">
+                    </a>
+                </li>
                 </ul>
             </nav>
         </header>    
     
+        <main>
+            <section>
+                <form>
+                    <label for="fname">Nome:</label> <br>
+                    <input type="text" id="fname"> <br>
+                    <label for="lname">Sobrenome:</label> <br>
+                    <input type="text" id="lname"> <br>
+                    <label for="desc">Descrição</label> <br>
+                    <textarea id="desc" name="Desc" rows="4" cols="50">Descreva aqui</textarea> <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </main>
         
+     <footer> 
+        <h4>© 2025 Lucas Suzuki</h4>
+    </footer>
 </body>
 </html>
